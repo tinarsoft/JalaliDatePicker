@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A5EE7D36-30E7-49AB-90EC-97836840C144}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FarsiLibrary.Test</RootNamespace>
+    <AssemblyName>FarsiLibrary.Test</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="baseForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="baseForm.Designer.cs">
+      <DependentUpon>baseForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee.cs" />
+    <Compile Include="frm01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm01.Designer.cs">
+      <DependentUpon>frm01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm02.Designer.cs">
+      <DependentUpon>frm02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm03.Designer.cs">
+      <DependentUpon>frm03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm04.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm04.Designer.cs">
+      <DependentUpon>frm04.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm05.Designer.cs">
+      <DependentUpon>frm05.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm06.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm06.Designer.cs">
+      <DependentUpon>frm06.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm07.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm07.Designer.cs">
+      <DependentUpon>frm07.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm08.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm08.Designer.cs">
+      <DependentUpon>frm08.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm09.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm09.Designer.cs">
+      <DependentUpon>frm09.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm10.Designer.cs">
+      <DependentUpon>frm10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm11.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm11.Designer.cs">
+      <DependentUpon>frm11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm12.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm12.Designer.cs">
+      <DependentUpon>frm12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm13.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm13.Designer.cs">
+      <DependentUpon>frm13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm14.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm14.Designer.cs">
+      <DependentUpon>frm14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm15.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm15.Designer.cs">
+      <DependentUpon>frm15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm16.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm16.Designer.cs">
+      <DependentUpon>frm16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm17.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm17.Designer.cs">
+      <DependentUpon>frm17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm18.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm18.Designer.cs">
+      <DependentUpon>frm18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm19.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm19.Designer.cs">
+      <DependentUpon>frm19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm20.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm20.Designer.cs">
+      <DependentUpon>frm20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ESLocalizer.cs" />
+    <Compile Include="PersonDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PersonDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="baseForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>baseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm01.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm02.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm02.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm03.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm03.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm04.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm04.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm05.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm05.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm06.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm06.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm07.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm07.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm08.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm08.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm09.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm09.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm10.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm11.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm12.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm13.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm14.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm15.resx">
+      <DependentUpon>frm15.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm16.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm17.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm18.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm19.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm20.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="PersonDataSet.xsc">
+      <DependentUpon>PersonDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PersonDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PersonDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="PersonDataSet.xss">
+      <DependentUpon>PersonDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Employee.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Redo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OK.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\FarsiLibrary.Resources\FarsiLibrary.Resources.csproj">
+      <Project>{E5575624-4B92-4E51-B98B-20F31FE5B5B4}</Project>
+      <Name>FarsiLibrary.Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\FarsiLibrary.Utils\FarsiLibrary.Utils.csproj">
+      <Project>{ED29E567-C801-49E9-8C33-CFB66042B07B}</Project>
+      <Name>FarsiLibrary.Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\FarsiLibrary.Win\FarsiLibrary.Win.csproj">
+      <Project>{83C3AEB8-5322-4DB6-9E7E-4BF8A319DCE7}</Project>
+      <Name>FarsiLibrary.Win</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft.Net.Framework.3.5.SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
